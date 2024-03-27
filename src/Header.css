@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #f39600c0; 
+    color: #cd1b1b;
+    font-family:cursive;
+  }
+  
+  .logo img {
+    width: 70px;
+    margin-right: 10px;
+  }
+  
+  .navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color:#cd1b1b
+  }
+  
+  .navigation ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .navigation ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .navigation ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navigation ul li a:hover {
+    text-decoration: underline; 
+  }
+  
+

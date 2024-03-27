@@ -1,42 +1,105 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.App {
+  font-family: Arial, sans-serif;
   text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: #ffa50030;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pizza-details {
+  background-color: #ffdd81ad;
+  border: 2px solid #7e7d7d40;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.pizza-info {
+  margin-bottom: 20px;
+  font-family:'Times New Roman', Times, serif;
 }
 
-.card {
-  padding: 2em;
+
+.quantity-price {
+  background-color: #efada6c9;
+  border: 2px solid #f39600;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 500px;
+  display: inline-block;
 }
 
-.read-the-docs {
-  color: #888;
+.quantity-price h2 {
+  margin-bottom: 10px;
+}
+
+.quantity-price button {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #cd1b1b;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.quantity-price button:hover {
+  background-color: #660202bb;
+}
+
+.quantity-price p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.feedback-section {
+  width: 70%;
+  padding: 5px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #dbdbdb;
+  color: #05059d;
+}
+
+.feedback-section textarea {
+  width: calc(100% - 20px);
+  height: 40px;
+  resize:vertical;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.buttons {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.buttons button {
+  margin: 0 5px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
 }
